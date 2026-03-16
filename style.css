@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #7b61ff, #b8a9ff, #ffffff);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.login button {
+  width: 75px;
+  height: 30px;
+  border-radius: 9px;
+  border: 1px solid #d7d9de;
+}
+
+.sign-up {
+  background-color: #ffffff;
+}
+
+.log-in {
+  background-color: #8b3dff;
+  color: #ffffff;
+}
+
+nav p {
+  font-size: 14px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+}
+
+.right video {
+  max-width: 670px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.left {
+  padding: 6rem 3rem;
+}
+
+.left h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.left p {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.left button {
+  padding: 14px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.AI-tools {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  font-size: 1.1rem;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+.AI-tools p:hover {
+  cursor: pointer;
+}
+
+.collection {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 506px 506px 506px;
+  gap: 1.6rem;
+  border-radius: 10px;
+}
+
+.card-1 {
+  position: relative;
+  grid-column: span 2;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 0;
+}
+
+.card-1 h3,
+.card-1 button{
+  position: relative;
+  z-index: 1;
+}
+
+.card-2 {
+  background-image: url(sources/Recommended_BGremover_Desktop_2x.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+.card-3 {
+  background-image: url(sources/Recommended_Presentation_Desktop_2x.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  border-radius: 20px;
+}
+.card-4 {
+  background-image: url(sources/Recommended_SNS_Desktop_2x.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column-start: span 2;
+  border-radius: 20px;
+}
+.card-5 {
+  background-image: url(sources/Recommended_video_Desktop_2x.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column-start: span 2;
+  border-radius: 20px;
+}
+.card-6 {
+  background-image: url(sources/AIgenerator_Dreamy_Moonrisingoverthemountains.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.card-1 button, .card-2 button, .card-4 button, .card-6 button{
+    padding: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+.collection h3 {
+    margin: 2rem;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.collection button {
+    margin-left: 2rem;
+}
+.card-1, .card-2, .card-4, .card-6{
+    cursor: pointer;
+}
+
+.card-2 h3{
+    color: black;
+}
